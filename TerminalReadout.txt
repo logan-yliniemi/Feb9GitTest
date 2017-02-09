@@ -1,0 +1,33 @@
+Last login: Thu Feb  9 11:24:05 on ttys001
+Logans-MacBook-Pro-2:~ logan$ pwd
+/Users/logan
+Logans-MacBook-Pro-2:~ logan$ ls
+Applications			Dropbox				Public
+Box Sync			GitHub				ganttproject.log
+Creative Cloud Files		Library				java0.log
+Desktop				Movies				matlab_crash_dump.18852-1
+Documents			Music				matlab_crash_dump.19488-1
+Downloads			Pictures
+Logans-MacBook-Pro-2:~ logan$ cd Desktop/
+Logans-MacBook-Pro-2:Desktop logan$ mkdir February9InClass
+Logans-MacBook-Pro-2:Desktop logan$ cd February9InClass/
+Logans-MacBook-Pro-2:February9InClass logan$ pwd
+/Users/logan/Desktop/February9InClass
+Logans-MacBook-Pro-2:February9InClass logan$ git clone https://github.com/logan-yliniemi/Feb9GitTest.git
+Cloning into 'Feb9GitTest'...
+remote: Counting objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+Checking connectivity... done.
+Logans-MacBook-Pro-2:February9InClass logan$ ls
+Feb9GitTest
+Logans-MacBook-Pro-2:February9InClass logan$ cd Feb9GitTest/
+Logans-MacBook-Pro-2:Feb9GitTest logan$ ls
+README.md
+Logans-MacBook-Pro-2:Feb9GitTest logan$ ls -a
+.		..		.git		README.md
+Logans-MacBook-Pro-2:Feb9GitTest logan$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working directory clean
+Logans-MacBook-Pro-2:Feb9GitTest logan$ 
